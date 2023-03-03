@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="converter_valores">
+        <div class="my_chackbox">
+            <span>Converter de: </span><br/>
+            <input type="radio" id="inteiro_bin" name="value" checked>Inteiro para binário</input><br/>
+            <input type="radio" id="bin_inteiro" name="value">Binário para inteiro</input>
+        </div>
+        <input type="text" id="valor" class="valor" placeholder="Digite um número" maxlength="15"></input>
+        <button id="converter" onclick="converter_valores()">Converter</button>
+
+        <h4>Resultado</h4>
+        <div id="resultado">
+
+        </div>
+    </div>
+    <script src="codigo.js"></script>
+</body>
+</html>
